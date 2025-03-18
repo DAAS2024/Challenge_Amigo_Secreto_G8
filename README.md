@@ -17,7 +17,7 @@ Este proyecto es una aplicación web desarrollada con **HTML, CSS y JavaScript**
 ## 🚀 Instalación y Uso
 1. 📥 Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/amigo-secreto.git
+   git clone (https://github.com/DAAS2024/Challenge_Amigo_Secreto_G8)
    ```
 2. 🖥️ Abre el archivo `index.html` en tu navegador web.
 3. 🎉 Agrega nombres, visualiza la lista y realiza el sorteo.
