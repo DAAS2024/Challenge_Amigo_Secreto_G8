@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+  <div class="container_first">
+    <input type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre del amigo">
+    <button type="button" id="primerBoton" onclick="agregarAmigos();" autofocus>Añadir</button>
+  </div>
+  <div class="container_third">
+    <ul class="listaDeAmigos">
+    </ul>
+  </div>
+  <div class="container_second">
+    <button type="button" id="segundoBoton" onclick="sortearAmigos();" autofocus>Sortear Amigo</button>
+    <button type="button" id="tercerBoton" onclick="nuevoSorteo();" disabled>Nuevo Sorteo</button>
+  </div>
+  <dialog id="modal">
+    <p id="mostrarAmigo"></p>
+    <button onclick="cerrar();">Salir</button>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>
